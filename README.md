@@ -1,22 +1,22 @@
 # 🚆 IRCTC Railway Management System API
 
 A complete Node.js + MySQL railway booking system API with:
-- ✅ User registration/login
-- 🚉 Admin train management
-- 📈 Real-time seat availability
-- 🔒 JWT auth & admin API key protection
-- ⚔️ Race condition-safe bookings
+-  User registration/login
+-  Admin train management
+-  Real-time seat availability
+-  JWT auth & admin API key protection
+-  Race condition-safe bookings
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 - [Node.js](https://nodejs.org/) v16+
 - [MySQL](https://dev.mysql.com/downloads/mysql/) 8.0+
 - Git
 
 ---
 
-## 🛠 Installation
+##  Installation
 
 ### 1. Clone the repository
 ```bash
@@ -62,7 +62,7 @@ npm start
 
 ---
 
-## 📊 Database Initialization
+##  Database Initialization
 When the server starts, Sequelize will:
 - Create required tables
 - Apply constraints
@@ -70,9 +70,9 @@ When the server starts, Sequelize will:
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
-### 👤 User Routes
+###  User Routes
 | Method | Endpoint                | Description               |
 |--------|--------------------------|---------------------------|
 | POST   | `/api/user/register`     | Register a new user       |
@@ -81,7 +81,7 @@ When the server starts, Sequelize will:
 | POST   | `/api/user/book`         | Book a train seat         |
 | GET    | `/api/user/booking/:id`  | View a specific booking   |
 
-### 🛠 Admin Routes
+###  Admin Routes
 | Method | Endpoint                     | Description               |
 |--------|-------------------------------|---------------------------|
 | POST   | `/api/admin/train`            | Add a new train           |
@@ -89,7 +89,7 @@ When the server starts, Sequelize will:
 
 ---
 
-## 🧪 Testing (Optional)
+##  Testing (Optional)
 To run any test cases or seeders:
 ```bash
 npm test
@@ -97,7 +97,7 @@ npm test
 
 ---
 
-## 🛡️ Security Features
+##  Security Features
 - JWT-based user authentication
 - Admin-only access via API key (header: `x-api-key`)
 - Passwords hashed using `bcrypt`
