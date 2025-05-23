@@ -1,4 +1,4 @@
-# 🚆 IRCTC Railway Management System API
+#  IRCTC Railway Management System API
 
 A complete Node.js + MySQL railway booking system API with:
 -  User registration/login
@@ -48,7 +48,7 @@ ADMIN_API_KEY=your_admin_key
 
 ---
 
-## 🏃‍♂️ Running the Project
+## Running the Project
 
 ### Development Mode
 ```bash
